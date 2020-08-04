@@ -19,6 +19,26 @@ public class Main {
 
         System.out.println(a + " " + b + " " + c);
 
+        // zmienne typu double + operatory matematyczne
+        double x = 1.0;
+        double y = 1.5;
+        double z = 2.2;
+//"(a+b)*c"
+        System.out.println((x + y) * z);
+// a - b / c
+        System.out.println(x - y / z);
+
+        x++;
+        y++;
+        z++;
+
+        // (a+b)>c
+        System.out.println((x + y) > z);
+        // a == b
+        System.out.println(x == y);
+
+
+
 
     }
 }
