@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+
+        Math zero = new Math();
+        zero.math();
+
+
+
         String a = "Hubert";
         String b = "Rośniak";
         String c = "wiek 26";
