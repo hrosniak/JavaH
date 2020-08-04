@@ -36,8 +36,12 @@ public class Main {
         System.out.println((x + y) > z);
         // a == b
         System.out.println(x == y);
+// konwersje rozszerzające i zawężające
+    int h = 8;
+    char j = 'a';
+    char k = 101;
 
-
+        System.out.println(h + j + k);
 
 
     }
