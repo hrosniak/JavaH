@@ -4,6 +4,12 @@ public class Main {
         Math zero = new Math();
         zero.math();
 
+        Wielkie lib = new Wielkie();
+        lib.wielkie();
+
+        Operatory ope = new Operatory();
+        ope.operatory();
+
 
 
         String a = "Hubert";
