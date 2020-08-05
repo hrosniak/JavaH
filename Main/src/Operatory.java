@@ -8,5 +8,7 @@ public class Operatory {
         System.out.println(a <= b);
         System.out.println(a != b);
         System.out.println(a == c);
+        System.out.println((a == b )&&(a == c));
+        System.out.println(a == b || a < c);
     }
 }
