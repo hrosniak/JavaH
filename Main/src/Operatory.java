@@ -5,6 +5,7 @@ public class Operatory {
     int b = 1;
     int c = 3;
     int number;
+    String imie;
 
     public void operatory() {
         System.out.println(a == b);
@@ -23,6 +24,15 @@ public class Operatory {
         } else{
             System.out.println("Jestem chory");
         }
-
+            Scanner newia = new Scanner(System.in);
+        System.out.println("Wpisz swój numer telefonu: ");
+        int smart = newia.nextInt();
+        if(smart == 600581902){
+            System.out.println("Numer poprawny");
+        }else if(smart == 727315090 ) {
+            System.out.println("To chyba nie twoje !!!");
+        }else{
+            System.out.println("To nie jest poprawny numer");
+        }
     }
 }
