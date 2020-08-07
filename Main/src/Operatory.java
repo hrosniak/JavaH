@@ -4,8 +4,8 @@ public class Operatory {
     int a = 1;
     int b = 1;
     int c = 3;
-    int number;
-    String imie;
+
+
 
     public void operatory() {
         System.out.println(a == b);
@@ -29,10 +29,38 @@ public class Operatory {
         int smart = newia.nextInt();
         if(smart == 600581902){
             System.out.println("Numer poprawny");
-        }else if(smart == 727315090 ) {
+        }else if(smart == 727315090) {
             System.out.println("To chyba nie twoje !!!");
         }else{
             System.out.println("To nie jest poprawny numer");
         }
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Podaj swoją zmierzoną temperaturę: ");
+        int smart2 = scan.nextInt();
+        switch(smart2){
+            case 34:
+                System.out.println("Jestem słaby i mi baaaardzo zimno!!!");
+                break;
+
+            case 35:
+                System.out.println("Jestem osłabiony");
+                break;
+            case 36:
+                System.out.println("Wszystko w normie");
+                break;
+            case 37:
+                System.out.println("Mam stan podgorączkowy");
+                break;
+            case 38:
+                System.out.println("Mam gorączke potrzebuje wolnego");
+                break;
+            case 40:
+                System.out.println("Chyba mam Coronawirusa muszę iść na kwarantannę");
+                break;
+            default:
+                System.out.println("Nic nie podałeś");
+                break;
+        }
     }
+
 }
