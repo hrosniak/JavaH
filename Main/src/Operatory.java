@@ -61,6 +61,32 @@ public class Operatory {
                 System.out.println("Nic nie podałeś");
                 break;
         }
+
+            Scanner jak = new Scanner(System.in);
+            System.out.println("Wpisz jak się zwiesz: ");
+            String nazwa = jak.nextLine();
+
+            switch(nazwa){
+                case "Hubert":
+                    System.out.println("Masz śliczne imię");
+                    break;
+                case "Łukasz":
+                    System.out.println("Nie tak ładne jak Hubert ale może być");
+                    break;
+                case "Monika":
+                    System.out.println("Miłośc mojego życia");
+                    break;
+                case "Aneta":
+                    System.out.println("To moja musia");
+                    break;
+                case "Kuba":
+                    System.out.println("A to mały belzebup");
+                    break;
+                default:
+                    System.out.println("Czy kogoś zapomniałem");
+                    break;
+
+            }
     }
 
 }
