@@ -10,6 +10,9 @@ public class Main {
         Operatory ope = new Operatory();
         ope.operatory();
 
+        Odczyt odczyt = new Odczyt();
+        odczyt.hubi();
+
 
 
         String a = "Hubert";

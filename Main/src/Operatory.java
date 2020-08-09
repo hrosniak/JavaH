@@ -87,6 +87,9 @@ public class Operatory {
                     break;
 
             }
+            for (int str = 0; str <= 10; str++){
+                System.out.println(str);
+            }
     }
 
 }
