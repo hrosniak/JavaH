@@ -90,6 +90,15 @@ public class Operatory {
             for (int str = 0; str <= 10; str++){
                 System.out.println(str);
             }
+
+            int ha = 0;
+        do {
+            System.out.println(ha);
+            ha++;
+        }    while(ha >= 10);
+                System.out.println("Koniec Pętli");
+
+
     }
 
 }

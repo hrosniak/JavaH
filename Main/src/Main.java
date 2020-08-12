@@ -3,13 +3,13 @@ public class Main {
 
         Math zero = new Math();
         zero.math();
-
+        try{ Thread.sleep(1000); } catch(Exception e){ }
         Wielkie lib = new Wielkie();
         lib.wielkie();
-
+        try{ Thread.sleep(1000); } catch(Exception e){ }
         Operatory ope = new Operatory();
         ope.operatory();
-
+        try{ Thread.sleep(1000); } catch(Exception e){ }
         Odczyt odczyt = new Odczyt();
         odczyt.hubi();
 
