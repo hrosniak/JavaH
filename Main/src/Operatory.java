@@ -61,7 +61,7 @@ public class Operatory {
                 System.out.println("Nic nie podałeś");
                 break;
         }
-
+// Zmienna switch składa się z kliku stringów zawsze występuje case sout break =
             Scanner jak = new Scanner(System.in);
             System.out.println("Wpisz jak się zwiesz: ");
             String nazwa = jak.nextLine();
@@ -90,15 +90,18 @@ public class Operatory {
             for (int str = 0; str <= 10; str++){
                 System.out.println(str);
             }
-
+// Pętla Do While warunek wykona się przynajmniej raz
             int ha = 0;
         do {
             System.out.println(ha);
             ha++;
         }    while(ha >= 10);
                 System.out.println("Koniec Pętli");
-
-
+// Pętla for w nawiasie definiujemy parametry jakie mają się wykonać
+                for(int i=10; i<=20; i++){
+                    System.out.println("To jest pętelka");
+                }
+        System.out.println("I koniec pętelki ");
     }
 
 }
