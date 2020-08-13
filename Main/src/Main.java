@@ -57,7 +57,10 @@ public class Main {
     char k = 101;
 
         System.out.println(h + j + k);
-
-
+// Definiowanie for each
+        String[] names = {"Hubert", "Monika", "Arkadiusz", "Maciej", "Aneta", "Magdalena"};
+        for(int u = 0; u < names.length; u++){
+            System.out.println(names[u]);
+        }
     }
 }
