@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -61,6 +64,12 @@ public class Main {
         String[] names = {"Hubert", "Monika", "Arkadiusz", "Maciej", "Aneta", "Magdalena"};
         for(int u = 0; u < names.length; u++){
             System.out.println(names[u]);
+        }
+        // Petla for each v2.
+        String[] imiona = {"Hubert", "Monika", "Arkadiusz", "Maciej", "Aneta", "Magdalena"};
+        List<String> strings = Arrays.asList(imiona);
+        for (String name : strings){
+            System.out.println(name);
         }
     }
 }
