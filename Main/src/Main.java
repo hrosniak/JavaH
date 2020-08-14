@@ -72,14 +72,12 @@ public class Main {
             System.out.println(name);
         }
 
-        Integer[] tablica = new Integer[10];
-        tablica[0] = 1;
-        tablica[1] = 2;
-        tablica[2] = 3;
+        Integer[] tablica = {1, 5, 8, 10};
+
 
         System.out.println("Liczby z pętli");
 
-        for (int l = 0; l < 10; l++){
+        for (int l = 0; l < tablica.length; l++){
             Integer coin = tablica[l];
             System.out.println(coin);
         }
