@@ -72,7 +72,7 @@ public class Main {
             System.out.println(name);
         }
 
-        int[] tablica = new int[10];
+        Integer[] tablica = new Integer[10];
         tablica[0] = 1;
         tablica[1] = 2;
         tablica[2] = 3;
@@ -80,7 +80,7 @@ public class Main {
         System.out.println("Liczby z pętli");
 
         for (int l = 0; l < 10; l++){
-            int coin = tablica[l];
+            Integer coin = tablica[l];
             System.out.println(coin);
         }
 
